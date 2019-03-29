@@ -1,0 +1,168 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Nikola Chochkov
+    tagline: Data Scientist
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: gooodini@gmail.com
+    phone: 012 345 6789
+    website: chochkov.github.com #do not add http://
+    # linkedin: alandoe
+    github: chochkov
+    gitlab:
+    kaggle: chochkov
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+
+    languages:
+      - idiom: Bulgarian
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: German
+        level: Professional
+
+      - idiom: Japanese
+        level: Beginner
+
+    interests:
+      - item: Drumming
+        link:
+
+      - item: Piano playing
+        link:
+
+      - item: Clibming
+        link:
+
+      - item: Roadtrips
+        link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+
+      Second paragraph if required.
+
+education:
+    - degree: MSc in Computer Science
+      university: University of London
+      time: 2011 - 2012
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: BSc in Applied Mathematics
+      university: Bristol University
+      time: 2007 - 2011
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+experiences:
+    - role: Head of Data Science
+      time: October 2017 - September 2018
+      company: Adjust, Berlin
+      details: |
+        I was responsible for the conceptulising, hiring and leading the Data Science team at Adjust. The team was in
+        charge for projects ranging from BI
+          - Bullet point
+          - Bullet point
+
+projects:
+    title: Projects
+    intro: >
+      The following is a list of some Open Source projects I've authored or contributed to.
+
+    assignments:
+      - title: Rport
+        link: "http://github.com/adjust/rport"
+        tagline: "Connection management and SQL parallelisation for R analytics on big database clusters"
+
+      - title: AllSubstringsTokenizer
+        link: "http://github.com/chochkov/all_substrings_tokenizer"
+        tagline: "C extension for PostgreSQL providing efficient substring computation in SQL"
+
+      - title: PgBundle
+        link: "http://github.com/adjust/pgbundle"
+        tagline: "Utility for managing PostgreSQL extension dependencies, inspired by Ruby's bundler"
+
+      - title: IStore
+        link: "http://github.com/adjust/istore"
+        tagline: "PostgreSQL data type supporting integer-to-integer maps"
+
+      - title: APIClientR
+        link: "https://github.com/adjust/api-client-r"
+        tagline: "An R wrapper for Adjust's customer API."
+
+publications:
+    title: Publications
+    intro: |
+      You can list your publications in this section. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      bibendum fringilla a eu lectus.
+
+    papers:
+      - title: The Art of Computer Programming
+        authors: Donald E. Knuth
+        conference: Addison-Wesley, 1968
+
+      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+      - title: A syntax directed compiler for Algol 60
+        authors: Edgar T. Irons
+        conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
