@@ -707,6 +707,10 @@
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>
 
+  {% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+  {% endif %}
+
 </body>
 
 </html>
