@@ -5,7 +5,10 @@ Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/templ
 
 # How to use
 
-###Portfolio 
+###Portfolio
+
+[NOTE:] There's a Modal functionality which is currently not used. In the original theme the modals were used for Portfolio, I'm not using the modals at the moment and renamed the Portfolio to Technology. In
+the future a Portfolio section might be added.
 
 Portfolio projects are in '/_posts'
 
