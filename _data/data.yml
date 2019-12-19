@@ -53,18 +53,17 @@ career-profile:
     summary: |
       I studied Applied Mathematics at Sofia University in Bulgaria;
       specialised in Data Analysis at the University of Electro-Communications in
-      Tokyo and then moved to Berlin. There I joined a Statistics Master at Humboldt
-      University, but didn't finish it to start working.
+      Tokyo and then moved to Berlin. Here I joined a Statistics Master at Humboldt
+      University, but I found startups more fun, so I dropped in favour of joining the scene.
 
       I started with an internship
       in Machine Learning at SoundCloud, then worked on freelance projects in software
       development and data science before joining mobile analytics company Adjust,
-      where I've taken engineering and data science roles for over 6 years.
+      where I took engineering and data science roles for over 6 years.
 
-      Following a short break after I've left Adjust, I started the website <a
+      Following a short break after I left Adjust, I started my own consultancy <a
       href='https://www.bi-outsourced.com' target='_blank'>www.bi-outsourced.com</a>,
-      through which I'm offering Business Intelligence and Data Science consulting
-      services.
+      through which I've been offering Business Intelligence and Data Science services to my clients.
 
 education:
     - degree: Postgraduate Research
@@ -94,9 +93,34 @@ education:
           - Bullet point
 
 experiences:
+    - role: Business Intelligence Consultant
+      time: January 2019 - current
+      company: <a style='color:#97AAC3' href='http://bi-outsourced.com'>bi-outsourced.com</a>, Berlin
+      details: |
+        I provide consulting services and build/integrate solutions for my customers in the areas of:
+          - Data Warehouse Design and Implementation
+          - ETL processes
+          - Business Intelligence/Reporting/Growth Accounting
+          - Statistical Data Analysis
+          - Development, Deployment & Monitoring of Data Science products
+          - Project Management/Training/Team Management
+
+        Portfolio:
+          - <a href='http://fatmap.com'>fatmap.com</a> - Data Warehouse Design, ETL, BI Reporting and Visualisation, Statistical Data Analysis
+          - <a href='http://viaeurope.com'>viaeurope.com</a> - Analytics Database, Query Optimisation, ETL, BI Visualisation
+
+        Technologies:
+          - PostgreSQL/PLpgSQL
+          - Python/R
+          - pandas/data.table
+          - Apache Airflow
+          - Metabase/Jupyter/Superset
+          - 3rd Party Integration (Mixpanel, Adjust, Facebook Marketing API, Chartmogul, etc.)
+          - AWS
+
     - role: Head of Data Science
       time: September 2017 - October 2018
-      company: adjust.com, Berlin
+      company: <a style='color:#97AAC3' href='http://adjust.com'>adjust.com</a>, Berlin
       details: |
         Data Science challenges grew at Adjust in the areas of Anti Fraud, Business Intelligence, Anomaly Detection, Marketing and others. I was in charge of hiring and
         leading the Data Science team, which within the first year:
@@ -119,7 +143,7 @@ experiences:
 
     - role: Database Engineer
       time: July 2016 - September 2017
-      company: adjust.com, Berlin
+      company: <a style='color:#97AAC3' href='http://adjust.com'>adjust.com</a>, Berlin
       details: |
         By mid 2016 Adjust had reached an incoming traffic rate of 100K HTTP requests <b>per second</b> and our tracking SDK was already estimated to
         be found in every second mobile device in the world. We had two clusters of data - raw and aggregated, each consisting of doezens of
@@ -133,7 +157,7 @@ experiences:
 
     - role: Data Scientist / Softawre Engineer
       time: June 2012 - June 2016
-      company: adjust.com, Berlin
+      company: <a style='color:#97AAC3' href='http://adjust.com'>adjust.com</a>, Berlin
       details: |
         I joined Adjust at a very early stage as the company's 5th employee. Over the following years, Adjust experienced a rapid growth in scale and team members and I
         contributed in multiple roles, everywhere where the company expansion required it.
@@ -158,7 +182,7 @@ experiences:
 
     - role: Machine Learning Engineer (internship)
       time: October 2010 - July 2011
-      company: SoundCloud, Berlin
+      company: <a style='color:#97AAC3' href='http://soundcloud.com'>SoundCloud</a>, Berlin
       details: |
         I analysed data from SoundCloud comments, posts and group messages to develop an ML prototype that achieved 97% accuracy.
 
@@ -216,10 +240,13 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: R, Golang, Ruby, SQL
+      - name: R, Python, Ruby, SQL
         level: 95%
 
-      - name: Python, C
+      - name: data.table, pandas, numpy
+        level: 95%
+
+      - name: Golang, C
         level: 85%
 
       - name: Postgres (Modelling &amp; Optimisation)
