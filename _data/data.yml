@@ -61,9 +61,10 @@ career-profile:
       development and data science before joining mobile analytics company Adjust,
       where I took engineering and data science roles for over 6 years.
 
-      Following a short break after I left Adjust, I started my own consultancy <a
-      href='https://www.bi-outsourced.com' target='_blank'>www.bi-outsourced.com</a>,
-      through which I've been offering Business Intelligence and Data Science services to my clients.
+      Following a short break after I left Adjust, I ran my own Business
+      Intelligence and Data Science consultancy for about 2 years, before I
+      joined the fantastic team of Flowkey. There I combine my passion for
+      music and piano with my technological professional background.
 
 education:
     - degree: Postgraduate Research
@@ -93,9 +94,29 @@ education:
           - Bullet point
 
 experiences:
+    - role: Lead Data Scientist
+      time: May 2020 - current
+      company: Flowkey GmbH
+      details: |
+          - Data Warehouse Design and Implementation
+          - ETL processes
+          - Business Intelligence/Reporting/Growth Accounting
+          - Statistical Data Analysis
+          - Development, Deployment & Monitoring of Data Science products
+          - Project Management/Training/Team Management
+
+        Technologies:
+          - PostgreSQL/PLpgSQL/Timescale
+          - Python/R
+          - pandas/data.table
+          - Apache Airflow
+          - Metabase/Jupyter/Superset/Rmarkdown
+          - 3rd Party Integration (Mixpanel, Adjust, Facebook Marketing API, Chartmogul, etc.)
+          - AWS Services
+
     - role: Business Intelligence Consultant
-      time: January 2019 - current
-      company: <a style='color:#97AAC3' href='http://bi-outsourced.com'>bi-outsourced.com</a>, Berlin
+      time: January 2019 - May 2020
+      company: BI Outsourced, Berlin
       details: |
         I provide consulting services and build/integrate solutions for my customers in the areas of:
           - Data Warehouse Design and Implementation
@@ -106,6 +127,7 @@ experiences:
           - Project Management/Training/Team Management
 
         Portfolio:
+          - <a href='http://flowkey.com'>flowkey.com</a> - Data Warehouse Design, ETL, BI Reporting and Visualisation, Statistical Data Analysis
           - <a href='http://fatmap.com'>fatmap.com</a> - Data Warehouse Design, ETL, BI Reporting and Visualisation, Statistical Data Analysis
           - <a href='http://viaeurope.com'>viaeurope.com</a> - Analytics Database, Query Optimisation, ETL, BI Visualisation
 
